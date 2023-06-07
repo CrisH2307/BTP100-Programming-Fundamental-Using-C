@@ -1,0 +1,14 @@
+In line number 67 of your output:
+The output should be:
+Name  : Beans Maulin
+^
+But your output is: 
+
+ ^
+
+Unmatched character details:
+The character in column 2 is supposed to be:
+  [N] ASCII code(78)
+but you printed
+  [Empty Line] ASCII code(0)
+

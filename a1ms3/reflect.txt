@@ -1,0 +1,39 @@
+
+///////////////////////////////////////////////////////////////////////////
+                               Reflection
+                             Milestone 03
+Full Name  : Xuan Khang Huynh (Cris Huynh)
+Student ID#: 105444228
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+1.  
+Three functions that I created during the time that I worked on Milestone 1,2,3
++ char* StringHold(char* String2, const char* StringConst); -> core.h Milestone 1. It takes the string without using the strlib.h. It uses a pointer of "StringHolding"-> This is the variable that I created, to store the value of the pointer at String 2. The function copies the value from String2 to StringConst, until the "null". And then it stops and return the variable that I created 
+
+
++: void AppointmentSwitch(struct Appointment* a, struct Appointment* b); --> clinic.h from Milestone 3. It gives the ability to change the value's location inside the structure, which compliment the next function and uses to do the Appointment sorting.
+Changed --> .void Reverse(struct Appointment* Data1, struct Appointment* Data2); --> clinic.c (Line 722). It receives two Appointment structs and swap or reverse there order, by assigning the parameters to an empty struct Appointment Data. 
+
++. void DateInput(int* YearInput, int* MonthInput, int* DayInput) --> clinic.h on Milestone 3. It receives the user input here of the appointment and repeats inside other functions, such as viewAppointmentSchedule or addAppointment.
+Changed --> void inputDate(int*month, int*year, int*day); clinic c Line 989 --> This function receives the address of 3 integer variables as parameters which are used for storing and returning the day, month and year. 
+
+2. 
+The "scanf" function is used in C programming to read input from the user, and it can be very useful in allowing users to interact with a program. However, there are some potential issues with using "scanf" too frequently in a program. However, there is one issue is that "scanf" can be a source of errors if not used carefully. For example,  if I enters an unexpected input format, such as a letter when the program expects a number, this can cause the program to crash or behave unpredictably. Not only that, using "scanf" frequently can make the program harder to maintain and debug. This is because "scanf" is often used in conjunction with other input/output functions, and coordinating the input/output of the program can become more complex as the number of "scanf" calls increases.
+For these reasons, it is often a good idea to minimize the number of "scanf" calls in a program and to use other techniques for obtaining input from the user where possible. In the case of the client.c source code file, minimizing the number of "scanf" calls may have been done to improve the reliability and maintainability of the code.
+
+3.
+. For each function, explain what module you placed it in and why? What factors and considerations contributed to your decision?
+
+char* StringHold(char* String2, const char* StringConst); -> core.h 
+It is a self-contained block of code that performs a specific task or operation. Functions can be called by other parts of a program, and are often used to encapsulate functionality that is used repeatedly throughout a program. To store the value of the pointer, and then return the value to the function. The reason that I created is I couldn't return the value for the core.c without creating any function that holds the string
+
+void DateInput(int* YearInput, int* MonthInput, int* DayInput)
+The reason for creating this function is due to its repetition. This function has been constructed for inputting the date and returning the value. The reason for creating this function is due to its repetition. The same function has been used several times for the validation of the date, and thus a function was created.
+
+void AppointmentSwitch(struct Appointment* a, struct Appointment* b);
+The function reverse has been created too to facilitate with programming process and avoid repeating code. This function has two parameters passed by reference. This has led to an ease in the functionality of the program.
