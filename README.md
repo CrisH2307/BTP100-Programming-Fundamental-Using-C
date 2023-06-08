@@ -1,7 +1,7 @@
 # BTP100 - Programming Fundamental Using C
-# Seneca College of Applied Arts and Technology, Seneca Polytechnic <br />
-# Duration: January 2023 - April 2023 <br />
-# Professor: Kalimullah Jawad <br />
+### Seneca College of Applied Arts and Technology, Seneca Polytechnic <br />
+### Duration: January 2023 - April 2023 <br />
+### Professor: Kalimullah Jawad <br />
 
 # Marks secured
 - WS01 : 10 / 10 <br>
