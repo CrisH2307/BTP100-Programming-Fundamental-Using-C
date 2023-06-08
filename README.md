@@ -15,7 +15,10 @@ Professor: Kalimullah Jawad <br />
 - Final Project : 100 / 100 <br />
   - MS1: 5/5 <br />
   - MS2: 10/10 <br />
-  - MS3: 10/10 <br />
+  - MS3: 10/10 <br /><br />
+ 
+ - Midterm: 39/40<br />
+ - Final: 50/60<br />
 
 
 ### COURSE GRADE: A+
