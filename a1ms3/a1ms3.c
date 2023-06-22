@@ -1,6 +1,6 @@
 /*
 *****************************************************************************
-						Assignment 1 - Milestone 2
+						Assignment 1 - Milestone 3
 Full Name  : Xuan Khang Huynh (Cris Huynh)
 Student ID#: 105444228
 Email      : xhuynh@myseneca.ca
